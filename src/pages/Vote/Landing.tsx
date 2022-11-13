@@ -292,7 +292,7 @@ export default function Landing() {
           </TopSection>
 
           <ThemedText.DeprecatedSubHeader color="text3">
-            <Trans>Any amount of GFI held entitles one to vote</Trans>
+            <Trans>Any amount of GFI held entitles one to vote and make proposals.</Trans>
           </ThemedText.DeprecatedSubHeader>
         </PageWrapper>
       </Trace>
