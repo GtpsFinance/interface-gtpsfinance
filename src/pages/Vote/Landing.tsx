@@ -160,14 +160,13 @@ export default function Landing() {
                 <AutoColumn gap="md">
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontWeight={600}>
-                      <Trans>Uniswap Governance</Trans>
+                      <Trans>Coming Soon Gtps.Finance Governance</Trans>
                     </ThemedText.DeprecatedWhite>
                   </RowBetween>
                   <RowBetween>
                     <ThemedText.DeprecatedWhite fontSize={14}>
                       <Trans>
-                        UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself
-                        or delegate your votes to a third party.
+                        Holders of our Gtps.Finance [GFI] tokens have rights to vote and make proposals.
                       </Trans>
                     </ThemedText.DeprecatedWhite>
                   </RowBetween>
@@ -176,11 +175,11 @@ export default function Landing() {
                       color: theme.deprecated_white,
                       textDecoration: 'underline',
                     }}
-                    href="https://uniswap.org/blog/uni"
+                    href="https://gtps.finance"
                     target="_blank"
                   >
                     <ThemedText.DeprecatedWhite fontSize={14}>
-                      <Trans>Read more about Uniswap governance</Trans>
+                      <Trans>More Coming Soon</Trans>
                     </ThemedText.DeprecatedWhite>
                   </ExternalLink>
                 </AutoColumn>
@@ -293,7 +292,7 @@ export default function Landing() {
           </TopSection>
 
           <ThemedText.DeprecatedSubHeader color="text3">
-            <Trans>A minimum threshold of 0.25% of the total UNI supply is required to submit proposals</Trans>
+            <Trans>Any amount of GFI held entitles one to vote</Trans>
           </ThemedText.DeprecatedSubHeader>
         </PageWrapper>
       </Trace>
