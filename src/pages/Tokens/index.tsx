@@ -100,7 +100,7 @@ const Tokens = () => {
       <ExploreContainer>
         <TitleContainer>
           <ThemedText.LargeHeader>
-            <Trans>Top tokens on Uniswap</Trans>
+            <Trans>Token Rank</Trans>
           </ThemedText.LargeHeader>
         </TitleContainer>
         <FiltersWrapper>
