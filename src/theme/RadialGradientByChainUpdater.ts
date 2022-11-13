@@ -51,7 +51,7 @@ export default function RadialGradientByChainUpdater(): null {
       case SupportedChainId.ARBITRUM_RINKEBY:
         setBackground(backgroundResetStyles)
         const arbitrumLightGradient =
-          'radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.6536) 49.48%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
+          'radial-gradient(100% 100% at 50% 0%, rgba(25, 237, 239, 0.7) 0%, rgba(37, 231, 222, 0.6536) 49.48%, rgba(25, 237, 239, 0) 100%), #25e7deb3'
         const arbitrumDarkGradient =
           'radial-gradient(100% 100% at 50% 0%, rgba(10, 41, 75, 0.7) 0%, rgba(34, 30, 48, 0.6536) 49.48%, rgba(31, 33, 40, 0) 100%), #0D0E0E'
         backgroundRadialGradientElement.style.background = darkMode ? arbitrumDarkGradient : arbitrumLightGradient
