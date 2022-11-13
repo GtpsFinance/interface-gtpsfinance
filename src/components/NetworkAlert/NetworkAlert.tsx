@@ -23,7 +23,7 @@ export const Controls = styled.div`
 `
 
 const BodyText = styled.div`
-  color: ${({ color }) => color};
+  color: #f5f5f5;
   display: flex;
   align-items: center;
   justify-content: flex-start;
