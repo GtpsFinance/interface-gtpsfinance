@@ -93,7 +93,7 @@ const ContentWrapper = styled.div<{ chainId: NetworkAlertChains; darkMode: boole
   background: ${({ chainId, darkMode }) => BG_COLORS_BY_DARK_MODE_AND_CHAIN_ID[darkMode ? 'dark' : 'light'][chainId]};
   border-radius: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   overflow: hidden;
   position: relative;
   width: 180%;
@@ -122,6 +122,7 @@ const LinkOutToBridge = styled(ExternalLink)`
   border-radius: 8px;
   color: white;
   display: flex;
+  flex-direction: column;
   font-size: 16px;
   justify-content: space-between;
   padding: 6px 8px;
